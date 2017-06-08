@@ -1,0 +1,229 @@
+    
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+
+   
+
+    #about{padding-top:50px;height:350px}
+    #portfolio{padding-top:50px;height: 600px}
+    #contact{padding-top:50px;height:350px}
+    
+
+   
+    .txt {
+        font-family: "Helvetica";
+        font-size: 18px;
+    }
+
+    .thum{
+        padding-top:30px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .ima {
+
+        border-width: 1;
+        border-style: solid;
+        border-radius: 60%;
+        padding-block-end: 50;
+        margin-right: 10;
+        margin-top:5;
+    }
+
+
+    .forms {
+        height: 300px;
+        width:700px;
+        margin-left:250;
+        margin-bottom: 100;
+    }
+
+    .parallax {
+
+            background-image: url("http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg");
+            background-attachment: fixed;
+            background-position: center ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: inset 0 0 1em #111;
+             min-height: 300px; 
+    }
+
+
+    .parallax2 {
+
+            background-image: url("http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg");
+            background-attachment: fixed;
+            background-position: center ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: inset 0 0 1em #111;
+             min-height: 300px; 
+    }
+
+.btn-facebook, 
+.btn-twitter, 
+.btn-linkedin, 
+.btn-github, 
+.btn-freecodecamp {
+    font-size: 1em;
+    background-color: beige;
+}
+
+.foot{
+
+    height: 100;
+    background-color: black;
+    color:aliceblue
+}
+</style>
+
+
+</head>
+
+    
+<body data-spy="scroll" data-target=".navbar" data-offset="50">    
+    
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> 
+          <a class="navbar-brand" href="#">Project name</a>
+        </div> 
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        <div class="nav navbar-right " padding="50" >
+              <img class="ima" src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="60">        
+        </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="parallax"></div>
+     <div id="about">
+         <div>
+             <h4 class="text-center"> About <h4>
+             <p class="txt">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
+                 a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word 
+                 in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, 
+                 written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+                 section 1.10.32.
+             </p>
+        
+             <p class="txt">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                  Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites 
+                  of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of 
+                  Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
+                   dolor sit amet..", comes from a line in section 1.10.32.
+             </p>
+         </div>
+     </div>
+
+<div class="parallax"></div>
+
+     <div id="portfolio">
+        <h4 class="text-center"> Portfolio </h4>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-4">
+
+                    <a href="#"> <img src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="300"> </a>
+
+                </div>
+
+                <div class="col-xs-4">
+
+                    <a href="#"> <img src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="300"> </a>
+
+                </div>
+
+                <div class="col-xs-4">
+
+                    <a href="#"> <img src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="300"> </a>
+
+                </div>
+            </div>
+
+            <div class="row thum" >
+
+                <div class="col-xs-4">
+
+                    <a href="#"> <img src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="300"> </a>
+
+                </div>
+
+                <div class="col-xs-4">
+
+                    <a href="#"> <img src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="300"> </a>
+
+                </div>
+
+                <div class="col-xs-4">
+
+                    <a href="#"> <img src="http://images03.military.com/media/equipment/military-aircraft/f-15-eagle/f-15-eagle_001.jpg" width="300"> </a>
+
+                </div>
+            </div>
+
+        </div>
+
+     </div>
+
+<div class="parallax2"></div>
+
+      <div id="contact">
+          
+              <h4 class="text-center"> Contact </h4>
+              <form class="forms">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                
+                
+                <button type="submit" class="btn btn-default">Submit</button>
+
+                </form>
+      </div> 
+
+      <div class="container">   
+         <div class="btnList text-center">
+                    <a class="btn btn-facebook btn-lg" href="https://www.facebook.com/orlindamianov" target="_blank"><i class="fa fa-facebook fa-fw"></i>Facebook</a>
+                    <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/collinsorlando88" target="_blank"><i class="fa fa-linkedin fa-fw"></i>LinkedIn</a>
+         </div>
+      </div>
+    
+
+     
+
+</body>
+
+<footer class="foot">
+  <p>Posted by: </p>
+  <p>Contact information: <a href="#">
+  someone@example.com</a>.</p>
+</footer>
